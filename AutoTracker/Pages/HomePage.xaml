@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="AutoTracker.Pages.HomePage"
+		Title="AutoTracker">
+	<ContentPage.Content>
+		<StackLayout
+			Orientation="Vertical"
+			VerticalOptions="FillAndExpand"
+			HorizontalOptions="FillAndExpand"
+			BackgroundColor="Silver">
+			<Label
+				Margin="0, 20, 0, 20"
+				HorizontalOptions="CenterAndExpand"
+				FontSize="20"
+				Text="Welcome to the AutoTracker App!!" />
+			<Button
+				Margin="0, 20, 0, 20"
+				HorizontalOptions="CenterAndExpand"
+				FontSize="20"
+				Text="Start Tracking" />
+			<StackLayout
+				Orientation="Horizontal"
+				VerticalOptions="Fill"
+				HorizontalOptions="FillAndExpand"
+				BackgroundColor="Red"
+				Spacing="0">
+				<StackLayout
+					Margin="10, 0, 5, 0"
+					Orientation="Vertical"
+					VerticalOptions="FillAndExpand"
+					HorizontalOptions="FillAndExpand"
+					BackgroundColor="Silver">
+					<Label
+						HorizontalOptions="FillAndExpand"
+						FontSize="20"
+						Text="Time:" />
+					<Label
+						HorizontalOptions="FillAndExpand"
+						FontSize="20"
+						Text="10sec" />
+				</StackLayout>
+				<StackLayout
+					Margin="5, 0, 10, 0"
+					Orientation="Vertical"
+					VerticalOptions="FillAndExpand"
+					HorizontalOptions="FillAndExpand"
+					BackgroundColor="Silver">
+					<Label
+						HorizontalOptions="FillAndExpand"
+						FontSize="20"
+						Text="Distance:" />
+					<Label
+						HorizontalOptions="FillAndExpand"
+						FontSize="20"
+						Text="2km" />
+				</StackLayout>
+			</StackLayout>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
